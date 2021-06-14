@@ -76,7 +76,7 @@ public class MyAccount {
             //charAt(0) Returns the character at the specified index (position). 0 in that case
             char option1 = reader.readLine().charAt(0);
             option = Character.toUpperCase(option1);
-            System.out.println("=========================");
+
 
             switch (option){
                 //Case A. Check your balance
@@ -126,6 +126,7 @@ public class MyAccount {
                     System.out.println("Error: invalid input. Please select the options A, B, C, D, E or F");
                     break;
             }
+
 
         }while(option != 'F');
         System.out.println("Thank you for choosing us!");
